@@ -7,7 +7,7 @@ export default function ArticlesList() {
     <section className="py-12 bg-gray-50">
       <div className="max-w-5xl mx-auto px-4">
         <h2 className="text-3xl font-pbold text-gray-700 text-center mb-8">
-          Articles & Publications
+          Publications
         </h2>
         <div className="space-y-6">
           {articles.map((article) => (
