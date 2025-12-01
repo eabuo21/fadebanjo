@@ -13,7 +13,7 @@ export default function ArticlesList() {
           {articles.map((article) => (
             <Link
               key={article.id}
-              href={`/articles/${article.id}`}
+              href={`/publications/${article.id}`}
               className="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
             >
               <h3 className="text-xl font-semibold text-gray-800">
