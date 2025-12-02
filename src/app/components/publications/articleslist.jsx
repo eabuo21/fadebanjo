@@ -14,16 +14,20 @@ export default function ArticlesList() {
             <Link
               key={article.id}
               href={`/publications/${article.id}`}
-              className="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
+              className="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300  group"
             >
-              <h3 className="text-xl font-semibold text-gray-800">
+              <h3 className="text-xl font-psemibold   underline   text-gray-800 group-hover:text-blue-700 ">
                 {article.title}
               </h3>
-              <p className="text-gray-600 mt-1">{article.authors}</p>
-              <p className="text-gray-500 text-sm mt-1">
+              <p className="text-gray-600 mt-1 group-hover:text-secondary-200 font-plight">
+                {article.authors}
+              </p>
+              <p className="text-gray-500 text-sm mt-1 group-hover:text-blue-700 font-pregular">
                 {article.source} • {article.year}
               </p>
-              <p className="text-gray-700 mt-2">{article.abstract}</p>
+              <p className="text-gray-700 mt-2 group-hover:text-primary group-hover:underline font-pthin">
+                {article.abstract}
+              </p>
             </Link>
           ))}
         </div>

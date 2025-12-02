@@ -3,8 +3,17 @@ export const articles = [
   {
     id: 'domain-generalization',
     title: 'Effect of Domain Generalization Techniques in Low Resource Systems',
-    authors:
-      'Mahi Aminu, Chisom Chibuike, Fatimo Adebanjo, Omokolade Awosanya, Samuel Oyeneye',
+    authors: (
+      <span>
+        Mahi Aminu, Chisom Chibuike,{' '}
+        <a href="" target="_blank">
+          <span className="font-pbold font-black text-primary border-b border-b-secondary-100">
+            Fatimo Adebanjo,
+          </span>
+        </a>{' '}
+        Omokolade Awosanya, Samuel Oyeneye
+      </span>
+    ),
     source: 'arXiv preprint arXiv:2510.27512',
     year: 2025,
     abstract:
@@ -22,12 +31,22 @@ Second, we explore an invariant causal representation learning (ICRL) approach u
 Our findings demonstrate that both approaches enhance robustness to unseen domains: counterfactual data augmentation yields consistent cross-domain accuracy gains in sentiment classification, while causal representation learning with DINER improves out-of-distribution performance in multilingual sentiment analysis, albeit with varying gains across languages.
     `,
   },
+
   {
     id: 'africaption',
     title:
       'AFRICAPTION: Establishing a New Paradigm for Image Captioning in African Languages',
-    authors:
-      'Mardiyyah Oduwole, Prince Mireku, Fatimo Adebanjo, Oluwatosin Olajide, Mahi Aminu Aliyu, Jekaterina Novikova',
+    authors: (
+      <span>
+        Mardiyyah Oduwole, Prince Mireku,{' '}
+        <a href="" target="_blank">
+          <span className="font-pbold font-black text-primary border-b border-b-secondary-100">
+            Fatimo Adebanjo,
+          </span>
+        </a>{' '}
+        Oluwatosin Olajide, Mahi Aminu Aliyu, Jekaterina Novikova
+      </span>
+    ),
     source: 'arXiv preprint arXiv:2510.17405',
     year: 2025,
     abstract:
@@ -44,12 +63,23 @@ To address this, we present AfriCaption, a comprehensive framework for multiling
 This unified framework ensures ongoing data quality and establishes the first scalable image-captioning resource for under-represented African languages, laying the groundwork for truly inclusive multimodal AI.
     `,
   },
+
   {
     id: 'data-augmentation',
     title:
       'From Scarcity to Efficiency: Investigating the Effects of Data Augmentation on African Machine Translation',
-    authors:
-      'Mardiyyah Oduwole, Oluwatosin Olajide, Jamiu Suleiman, Faith Hunja, Busayo Awobade, Fatimo Adebanjo, ...',
+    authors: (
+      <span>
+        Mardiyyah Oduwole, Oluwatosin Olajide, Jamiu Suleiman, Faith Hunja,
+        Busayo Awobade,{' '}
+        <a href="" target="_blank">
+          <span className="font-pbold font-black text-primary border-b border-b-secondary-100">
+            Fatimo Adebanjo,
+          </span>
+        </a>{' '}
+        ...
+      </span>
+    ),
     source: 'arXiv preprint arXiv:2509.07471',
     year: 2025,
     abstract:
@@ -63,11 +93,21 @@ This study explores the effects of data augmentation techniques in improving tra
 Our experiments show significant improvements in machine translation performance, with a minimum increase of 25% in BLEU score across all six languages. We provide a comprehensive analysis and highlight the potential of these techniques to improve machine translation systems for low-resource languages, contributing to the development of more robust translation systems for under-resourced languages.
     `,
   },
+
   {
     id: 'flatness-regularization',
     title:
       'Flatness-Aware Regularization for Robust Generalization in Deep Neural Networks',
-    authors: 'Chisom Chibuike, Fatimo Adebanjo',
+    authors: (
+      <span>
+        Chisom Chibuike,{' '}
+        <a href="" target="_blank">
+          <span className="font-pbold font-black text-primary border-b border-b-secondary-100">
+            Fatimo Adebanjo
+          </span>
+        </a>
+      </span>
+    ),
     source: 'mlcollective.org',
     year: 2025,
     abstract:
